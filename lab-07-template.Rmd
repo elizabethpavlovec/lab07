@@ -72,7 +72,11 @@ tidy(score_bty_fit)
 ### Exercise 4
 
 ```{r viz-score_bty_fit}
-# add your code here
+plot_geom_jitter +
+  geom_smooth(method = "lm",
+              se = FALSE,
+              color = "orange")
+
 ```
 
 ### Exercise 5
