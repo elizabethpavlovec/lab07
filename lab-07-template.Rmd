@@ -91,10 +91,10 @@ plot_geom_jitter +
 
 ```{r glance-score_bty_fit, eval = FALSE}
 # remove eval = FALSE from the code chunk options after filling in the blanks
-glance(___)
+glance(score_bty_fit)$r.squared
 ```
 
-*Add interpretation of R-squared here.*
+*R squared is really low, which means that the model fit is inappropriate.*
 
 ### Exercise 8
 
