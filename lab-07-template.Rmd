@@ -81,11 +81,11 @@ plot_geom_jitter +
 
 ### Exercise 5
 
-*Add interpretation of intercept here.*
+*The slope is moderate; therefore, we can conclude that the linear relationship is not very strong.*
 
 ### Exercise 6
 
-*Add interpretation of intercept here.*
+*If the score is 0, the beauty will be 2.2.*
 
 ### Exercise 7
 
