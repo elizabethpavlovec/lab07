@@ -102,7 +102,9 @@ glance(score_bty_fit)$r.squared
 # remove eval = FALSE from the code chunk options after filling in the blanks
 score_bty_aug <- augment(score_bty_fit$fit)
 
-ggplot(___)
+ggplot(data = score_bty_aug,
+       mapping = aes(x = .resid, y = .fitted))+
+  geom_jitter()
 ```
 
 *Add your narrative here.*
